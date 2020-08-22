@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#131416">
+    <title>Prateek Mitra Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <!-- <link rel="stylesheet" href="lightbox.min.css"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- <link rel="icon" href="images/favicon.png" type="image/png"> -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="prateek">
+    <meta name="application-name" content="prateek">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="manifest" href="manifest.json" /> -->
+    <!-- <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script> -->
+</head>
+
+<body>
+
+    <div class="gallery" id="gallery">
+        <div class="menu" id="menu">
+            <a href="#" onclick="menuopt()"><i class="fa fa-bars"></i></a>
+        </div>
+    </div>
+    <div class="content" id="content">
+        <h1 style="margin-left:6%;">About Prateek Mitra</h1>
+        <!-- <img src="images/2.jpg" alt="" style="float:right; height: 230px; width:500px;margin-right:25%;"> -->
+        <p>I have completed my Bachelors in Technology, with Information Technology as my specialisation, from SRM Institute of Science and Technology, Kattankulathur.</p><br>
+        <p>My specifics include user interface designing and front end web designing.
+            I have worked in Adobe Photoshop and Figma extensively, and used JavaScript libraries such as ReactJS to build
+            functional websites.
+        </p>
+        <p>Apart from these, I really love to take pictures, run, read and write.</p>
+        <p>If you liked my content, definitely add this web site to your home screen to stay updated.</p>
+
+    </div>
+    <div class="sec2 border2" id="options">
+        <div class="wrapper">
+            <a href="index.html" class="text2">Home</a><br>
+            <a href="portfolio.html" class="text2">Portfolio</a><br>
+            <a href="post.html" class="text2">Posts</a><br>
+            <a href="contact.html" class="text2">Contact</a><br>
+            <a href="me.html" class="text2"><i class="fa fa-arrow-left"></i></a>
+        </div>
+
+    </div>
+
+    <script>
+        function menuopt() {
+            document.getElementById("gallery").style.display = "none";
+            document.getElementById("content").style.display = "none";
+            document.getElementById("options").style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
